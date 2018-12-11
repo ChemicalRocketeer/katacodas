@@ -7,8 +7,8 @@ Now, we can import and initialize the api
 <pre class="file" data-filename="main.js" data-target="replace">
 const Alpaca = require('@alpacahq/alpaca-trade-api')
 const alpaca = new Alpaca({
-  keyId: // Paste your key id here
-  secretKey: // Paste your secret key here
+  keyId: YOUR_KEY_ID, // Paste your key id here
+  secretKey: YOUR_SECRET,// Paste your secret key here
   paper: true
 })
 </pre>
