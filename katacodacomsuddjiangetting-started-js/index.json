@@ -1,0 +1,47 @@
+{
+  "title": "Getting Started with Javascript",
+  "description": "How to get started with the JS Alpaca Trade API",
+  "details": {
+    "steps": [
+      {
+        "title": "Authenticating",
+        "text": "auth.md"
+      },
+      {
+        "title": "Get Account",
+        "text": "account.md"
+      },
+      {
+        "title": "Place Order",
+        "text": "buy.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "trade.js",
+        "target": "~/"
+      },
+      {
+        "file": "node_modules/*",
+        "target": "~/node_modules"
+      }
+    ]
+  },
+  "files": [
+    "main.js"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "node6"
+  }
+}
