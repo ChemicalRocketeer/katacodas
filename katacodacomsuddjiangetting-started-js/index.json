@@ -39,7 +39,8 @@
     "main.js"
   ],
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "showdashboard": false
   },
   "backend": {
     "imageid": "node6"
