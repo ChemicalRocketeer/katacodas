@@ -1,8 +1,8 @@
 First, let's install the Alpaca API from npm.
 
-Run `npm install @alpacahq/alpaca-trade-api`{{execute}}
+Run `npm install @alpacahq/alpaca-trade-api`{{execute}} to install the API.
 
-Now, we can import and initialize the api
+Now, we can import and initialize our Alpaca module.
 
 <pre class="file" data-filename="main.js" data-target="append">
 

@@ -8,20 +8,10 @@
         "text": "auth.md"
       },
       {
-        "title": "Get Account",
-        "text": "account.md"
-      },
-      {
         "title": "Place Order",
         "text": "buy.md"
       }
-    ],
-    "intro": {
-      "text": "intro.md"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
+    ]
   },
   "assets": {
     "client": [
