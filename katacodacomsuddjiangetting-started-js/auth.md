@@ -18,7 +18,9 @@ To start, let's just get your account info.
 
 <pre class="file" data-filename="main.js" data-target="append">
 
-alpaca.getAccount().then(account => console.log(account))
+alpaca.getAccount().then(account =>
+  console.log('Your account: ', account)
+)
 </pre>
 
 We can run this code with `node ./main.js`{{execute}}
