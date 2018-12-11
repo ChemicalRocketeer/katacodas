@@ -4,7 +4,8 @@ Run `npm install @alpacahq/alpaca-trade-api`{{execute}}
 
 Now, we can import and initialize the api
 
-<pre class="file" data-filename="main.js" data-target="replace">
+<pre class="file" data-filename="main.js" data-target="append">
+
 const Alpaca = require('@alpacahq/alpaca-trade-api')
 const alpaca = new Alpaca({
   keyId: YOUR_KEY_ID, // Paste your key id here
@@ -12,3 +13,12 @@ const alpaca = new Alpaca({
   paper: true
 })
 </pre>
+
+To start, let's just get your account info.
+
+<pre class="file" data-filename="main.js" data-target="append">
+
+alpaca.getAccount().then(console.log)
+</pre>
+
+We can run this code with `node ./main.js`{{execute}}
